@@ -121,9 +121,6 @@ import dayjs from 'dayjs'
         } else if (nextBir > 0 ) {
             birthdayMessage = `距离 ${birthday.name} 的生日还有${nextBir}天`
         }
-          else {
-            birthdayMessage = ``
-        }
         // 存储数据
         if (birthdayMessage) {
             resMessage += `${birthdayMessage} \n`
