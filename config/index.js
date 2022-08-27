@@ -16,7 +16,7 @@ export const config = {
     city: "赣州",
     // 生日，修改名字为对应需要显示的名字，如果生日为农历， type为 r
     birthdays: [
-      {"name": "老婆", "year": "2001", "date": "8-28", "type": 'new'},
+      {"name": "老婆", "year": "2001", "date": "08-28", "type": 'new'},
     ],
     // 在一起的日子，格式同上
     loveDate: "2022-05-20",
@@ -28,7 +28,6 @@ export const config = {
 // 最低气温: {{min_temperature.DATA}}  
 // 最高气温: {{max_temperature.DATA}}  
 // 今天是我们恋爱的第{{love_day.DATA}}天
-// 今天是我们结婚的第{{marry_day.DATA}}天
 // {{birthday_message.DATA}}
 
 // {{note_en.DATA}}  
