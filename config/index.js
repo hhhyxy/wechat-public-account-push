@@ -14,6 +14,9 @@ export const config = {
     province: "黑龙江",
     // 所在城市
     city: "哈尔滨",
+    birthdays: [
+      {"name": "老婆", "year": "2001", "date": "8-28", "type": 'new'},
+    ],
     // 在一起的日子，格式同上
     loveDate: "2022-05-20",
     }
